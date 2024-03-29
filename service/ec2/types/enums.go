@@ -6225,7 +6225,7 @@ type PlatformValues string
 
 // Enum values for PlatformValues
 const (
-	PlatformValuesWindows PlatformValues = "Windows"
+	PlatformValuesWindows PlatformValues = "windows"
 )
 
 // Values returns all known values for PlatformValues. Note that this can be
@@ -6233,7 +6233,7 @@ const (
 // ordering of this slice is not guaranteed to be stable across updates.
 func (PlatformValues) Values() []PlatformValues {
 	return []PlatformValues{
-		"Windows",
+		"windows",
 	}
 }
 

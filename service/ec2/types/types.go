@@ -2282,7 +2282,7 @@ type CreateFleetInstance struct {
 	// Instance.
 	Lifecycle InstanceLifecycle
 
-	// The value is Windows for Windows instances. Otherwise, the value is blank.
+	// The value is windows for Windows instances. Otherwise, the value is blank.
 	Platform PlatformValues
 
 	noSmithyDocumentSerde
@@ -2803,7 +2803,7 @@ type DescribeFleetsInstances struct {
 	// Instance.
 	Lifecycle InstanceLifecycle
 
-	// The value is Windows for Windows instances. Otherwise, the value is blank.
+	// The value is windows for Windows instances. Otherwise, the value is blank.
 	Platform PlatformValues
 
 	noSmithyDocumentSerde
